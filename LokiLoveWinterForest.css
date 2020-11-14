@@ -1,0 +1,354 @@
+@-moz-document domain("wolvden.com") {
+/*
+    This code was written by LokiLove #9095 for LokiLove #9095
+    I would prefer that you don't copy this code, but honestly, I won't know if you do.
+*/
+/*
+       COLOR PALLETE
+    1- Darkest #35503B
+    2- #448350
+    3- #72B181
+    4- #B2D7B2
+    5- Lightest #E4F1E6
+*/
+/*
+       WHOLE PAGE
+*/
+body {
+    background-color: #00000020;
+    background-image: url('https://i.ibb.co/F06VR5w/landscape-4803624-960-720.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+}
+
+
+a,
+.card-header .btn-link {
+    color: #35503B;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #72B181;
+}
+
+/*
+        MAIN NAVIGATION BAR
+*/
+#header .navbar-main,
+#footer {
+    background-color: #35503B;
+}
+
+#header .navbar-status {
+    Background-color: #72B181;
+}
+
+#header .navbar-main .nav-link {
+    color: #fff;
+}
+
+#header .navbar-main .nav-link .fa {
+    color: #72b181;
+}
+
+#header .navbar-main .nav-link:hover {
+    color: #B2D7B2;
+}
+
+#header .navbar-main .nav-link:hover .fa {
+    color: #448350;
+}
+
+#footer a:hover,
+#footer nav .nav-item .nav-link:hover {
+    color: #72B181
+}
+
+#header .navbar-status {
+    background-color: #72B181;
+}
+
+#header .navbar-status a:hover {
+    color: #E4F1E6;
+}
+
+#header .text-dark {
+    color: #448350 !important;
+    font-weight: bold;
+}
+
+#header .breadcrumb-nav {
+    background-color: #E4F1E6;
+}
+
+/*
+        CONTAINERS
+*/
+#main,
+#sidebar {
+    background-color: #E4F1E6;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #72B181;
+    color: #E4F1E6;
+    border-radius: 10px;
+}
+
+#main .card {
+    background: #72B181;
+    border-radius: 10px;
+}
+
+#main .card {
+    color: #35503B;
+}
+
+#main .card:hover {
+    color: #B2D7B2;
+}
+
+img,
+.form-control,
+.note-btn,
+.alert-danger {
+    border-radius: 10px;
+}
+
+.card-img-top,
+.pt-1.pb-1,
+.table .top,
+.note-editor.note-frame .note-editing-area .note-editable {
+    border-radius: 10px 10px 0 0;
+}
+
+/*
+        TABLES
+*/
+.table {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+}
+
+.table th {
+    background-color: #448350;
+}
+
+.table th a {
+    color: #E4F1E6;
+}
+
+.table th a:hover {
+    color: #B2D7B2;
+}
+
+.table .subheader {
+    background-color: #72B181;
+}
+
+.table .left {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+.table td.bottom {
+    background-color: #448350;
+    border-radius: 0 0 10px 10px;
+}
+
+.form-control,
+.s-chat-sidebar #label_currentChannel,
+.note-toolbar .note-btn {
+    background-color: rgb(255, 255, 255);
+}
+
+#fra_chatContainer #txtChatInput,
+.note-editor.note-airframe .note-editing-area .note-editable,
+.note-editor.note-frame .note-editing-area .note-editable {
+    background-color: rgb(255, 255, 255);
+}
+
+/*
+        SIDEBAR
+*/
+#sidebar .card {
+    background-color: white;
+    border-bottom: 6px solid #72B181;
+    border-radius: 10px;
+}
+
+.progress {
+    background: #E4F1E6 !important;
+}
+
+/*
+        ENERGY OR SURVIVAL CHANCE
+*/
+.bg-warning,
+#main .bg-success {
+    background-color: rgb(255, 191, 132) !important;
+}
+
+/*
+        HUNGER OR MOOD
+*/
+#sidebar .bg-danger,
+.bg-primary {
+    background-color: rgb(220, 109, 109) !important;
+}
+
+/*
+        HIT POINTS OR HUNGER
+*/
+#sidebar .bg-info,
+#main .bg-danger {
+    background-color: rgb(96, 133, 193) !important;
+}
+
+/*
+        EXPERIENCE OR HIT POINTS
+*/
+#sidebar .bg-success,
+#main .bg-info {
+    background-color: rgb(116, 201, 97) !important;
+}
+
+/*
+        SIDEBAR
+*/
+#chatMessagePinned.s-chat-message__pinned {
+    background-color: #72B181;
+    padding: 5px;
+}
+
+.s-chat-message:nth-child(odd),
+.s-chat-message:nth-child(even) {
+    background: white;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher {
+    color: #35503B;
+}
+
+#fra_chatContainer .channelMenu .channelSwitcher.active {
+    background: #E4F1E6;
+    color: #448350;
+}
+
+/*
+        UPDATE AND SAVE
+*/
+.btn-primary,
+.btn-success {
+    background-color: #72B181;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-success:hover,
+.btn-success:focus {
+    background-color: #B2D7B2 !important;
+}
+
+/*
+        EXPAND AND FAPA
+*/
+.btn-warning,
+.btn-info {
+    background-color: #B2D7B2;
+    color: #35503B;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-info:hover,
+.btn-info:focus {
+    background-color: #E4F1E6!important;
+    color: #448350;
+}
+
+/*
+        REPORT A BUG
+*/
+.btn-danger {
+    background-color: #448350;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #72B181 !important;
+}
+
+/*
+        EVERYTHING ELSE
+*/
+.alert {
+    background-color: #B2D7B2;
+    color: #35503B;
+    border: none;
+    border-radius: 10px;
+}
+
+.alert a {
+    color: #18251b !important;
+}
+
+.alert a:hover {
+    color: #35503B !important;
+}
+
+.tooltip-inner {
+    background-color: #448350;
+    border-radius: 10px;
+}
+
+/*
+        DEN SPECIFIC
+*/
+.box {
+    background-color: #B2D7B2;
+    text-align: center;
+    padding: 15px;
+    margin: 0 2% 30px;
+    border-radius: 10px;
+    float: left;
+    width: 46%;
+    height: 170px;
+    overflow: auto;
+}
+
+.box2 {
+    background-color: #B2D7B2;
+    text-align: center;
+    padding: 15px;
+    margin: 0 2% 30px;
+    border-radius: 10px;
+    float: left;
+    width: 96%;
+    height: 170px;
+    overflow: auto;
+}
+
+.box3 {
+    background-color: #B2D7B2;
+    text-align: center;
+    padding: 15px;
+    margin: 0 2% 30px;
+    border-radius: 10px;
+    float: left;
+    width: 29.3%;
+    height: 170px;
+    overflow: auto;
+}
+}
